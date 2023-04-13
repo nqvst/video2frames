@@ -5,6 +5,9 @@ $ git clone git@github.com:nqvst/video2frames.git && cd video2frames
 $ pipenv install 
 $ pipenv shell
 
+# create the output folder
+$ mkdir output_frames
+
 # extract every 9th frame starting at frame 32 end stopping at frame 64 
 $ python extract_frames.py -f video.mp4 -r 9 -o output_frames -s 32 -e 64 
 
