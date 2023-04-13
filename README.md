@@ -1,7 +1,7 @@
 # A simple video to images extraction tool
 
 ```sh
-$ git clone git@github.com:nqvst/video2frames.git && cd video2framse
+$ git clone git@github.com:nqvst/video2frames.git && cd video2frames
 $ pipenv install 
 $ pipenv shell
 
